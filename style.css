@@ -1,10 +1,76 @@
-.item{
-  font-weight:bold;
+ h1{
+     font-family: "Times New Roman", Times, Serif;
+     padding-left:10px;
+     text-decoration:underline;
 }
-.exp{
-  font-style:italic;
+ button {
+    background-color: #555555;
+     color:white;
 }
-.employer{
-  margin-bottom:0
+ .email{
+     color:red;
 }
-.location{font-style:italic;}
+ .bord{
+     border:solid black 3px;
+     padding-left:10px;
+     padding-bottom:10px;
+     background-color:CornflowerBlue;
+}
+ img {
+     width: 100%;
+     border:solid black 2px;
+}
+ .item {
+     font-weight:bold;
+}
+ .exp{
+     font-style:italic;
+}
+ .employer{
+}
+ .main {
+     background-color:#00ff0090;
+     border:solid black 1px;
+     padding-left: 10px;
+}
+ .location {
+     font-style:italic;
+}
+ .indent{
+     padding-left:10px;
+}
+ h3 {
+     border:1px solid black;
+}
+ .bord2{
+    border:solid black 3px;
+}
+ .main2 {
+     padding-top:0px;
+     background-color: CornflowerBlue;
+     padding-left:10px;
+}
+ .copyright{
+     animation-name:copyright;
+     animation-duration:7s;
+     color:red;
+     animation-iteration-count:infinite;
+}
+ @keyframes copyright{
+     0% {
+        color:red;
+    }
+     25% {
+        color:yellow;
+    }
+     50% {
+        color:blue;
+    }
+     75% {
+        color:green;
+    }
+     100% {
+        color:red;
+    }
+}
+ 
